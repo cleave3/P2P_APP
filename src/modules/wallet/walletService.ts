@@ -32,8 +32,8 @@ class WalletService {
         let totaldebit = 0;
 
         for (let index = 0; index < walletentries.length; index++) {
-            totalcredit += walletentries[index].credit;
-            totaldebit += walletentries[index].debit;
+            totalcredit += Number(walletentries[index].credit);
+            totaldebit += Number(walletentries[index].debit);
         }
 
         return totalcredit - totaldebit;
