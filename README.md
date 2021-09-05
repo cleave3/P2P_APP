@@ -33,7 +33,11 @@
 - In production mode
 
 ```sh
-    npm run build && npm start
+    npm run build
+```
+
+```sh
+    npm start
 ```
 
 #### Testing the App
@@ -53,7 +57,7 @@ headers required for user endpoints
 }
 ```
 
-1. POST /user/signup - Register a user
+1. POST <strong>/user/signup</strong> - Register a user
 
 body
 
@@ -79,7 +83,7 @@ Response
 }
 ```
 
-2. POST /user/login - login a user
+2. POST <strong>/user/login</strong> - login a user
 
 body
 
@@ -113,7 +117,7 @@ headers required for wallet endpoints
 }
 ```
 
-1. POST /wallet/deposit - Funds deposit
+1. POST <strong>/wallet/deposit</strong> - Funds deposit
 
 body
 
@@ -133,7 +137,7 @@ Response
 }
 ```
 
-2. POST /wallet/transfer - Funds transfer
+2. POST <strong>/wallet/transfer</strong> - Funds transfer
 
 body
 
@@ -154,7 +158,7 @@ Response
 }
 ```
 
-3. GET /wallet/balance - get wallet balance
+3. GET <strong>/wallet/balance</strong> - get wallet balance
 
 Response
 
@@ -169,7 +173,7 @@ Response
 }
 ```
 
-4. GET /wallet/history - get transaction history
+4. GET <strong>/wallet/history</strong> - get transaction history
 
 Response
 
